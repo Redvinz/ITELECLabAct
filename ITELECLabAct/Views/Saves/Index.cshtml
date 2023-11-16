@@ -1,0 +1,22 @@
+﻿@model List<SavesModel>
+@{
+    ViewData["Title"] = "Saves";
+}
+
+
+<div>
+    <table>
+        <tr>
+            <th width="200px">UsersId</th>
+            <th width="200px">ProductsId</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.UsersId</td>
+                <td>@item.ProductsId</td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,20 @@
+﻿@model List<CategoriesModel>
+@{
+    ViewData["Title"] = "Categories";
+}
+
+
+<div>
+    <table>
+        <tr>
+            <th width="200px">Categories</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CategoryName</td>
+            </tr>
+        }
+    </table>
+</div>

@@ -1,0 +1,22 @@
+﻿@model List<ConditionModel>
+@{
+    ViewData["Title"] = "Condition";
+}
+
+
+<div>
+    <table>
+        <tr>
+            <th width="200px">Condition</th>
+            <th width="200px">Detail</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ConditionName</td>
+                <td>@item.ConditionDetail</td>
+            </tr>
+        }
+    </table>
+</div>

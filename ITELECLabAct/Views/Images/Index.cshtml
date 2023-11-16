@@ -1,0 +1,22 @@
+﻿@model List<ImagesModel>
+@{
+    ViewData["Title"] = "Saves";
+}
+
+
+<div>
+    <table>
+        <tr>
+            <th width="200px">ProductsId</th>
+            <th width="200px">Filename</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductsId</td>
+                <td>@item.Filename</td>
+            </tr>
+        }
+    </table>
+</div>

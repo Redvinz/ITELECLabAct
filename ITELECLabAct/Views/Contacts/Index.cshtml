@@ -1,0 +1,24 @@
+﻿@model List<ContactsModel>
+@{
+    ViewData["Title"] = "Contacts";
+}
+
+
+<div>
+    <table>
+        <tr>
+            <th width="200px">UsersId</th>
+            <th width="200px">Title</th>
+            <th width="200px">Description</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.UsersId</td>
+                <td>@item.Title</td>
+                <td>@item.Description</td>
+            </tr>
+        }
+    </table>
+</div>

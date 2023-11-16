@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.13" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\css\.DS_Store" />
+    <None Include="wwwroot\css\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\css\css\bootstrap\bootstrap-reboot.css" />
+    <None Include="wwwroot\css\css\bootstrap\mixins\_badge.css" />
+    <None Include="wwwroot\css\css\bootstrap\mixins\_box-shadow.css" />
+    <None Include="wwwroot\css\css\bootstrap\mixins\_float.css" />
+    <None Include="wwwroot\css\css\bootstrap\mixins\_nav-divider.css" />
+    <None Include="wwwroot\css\css\bootstrap\mixins\_reset-text.css" />
+    <None Include="wwwroot\css\css\bootstrap\mixins\_text-hide.css" />
+    <None Include="wwwroot\css\css\bootstrap\utilities\_stretched-link.css" />
+    <None Include="wwwroot\css\css\bootstrap\_media.css" />
+    <None Include="wwwroot\css\css\owl.carousel.min.css" />
+    <None Include="wwwroot\css\css\style.css" />
+    <None Include="wwwroot\js\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\js\jquery-3.3.1.min.js" />
+    <None Include="wwwroot\js\js\jquery.sticky.js" />
+    <None Include="wwwroot\js\js\main.js" />
+    <None Include="wwwroot\js\js\owl.carousel.min.js" />
+    <None Include="wwwroot\js\js\popper.min.js" />
+  </ItemGroup>
+
+</Project>
